@@ -48,7 +48,7 @@ namespace Queue {
 		// Override this function in subclass
 		virtual errflag_t push(const dtype& src_data) = 0;
 
-		// removes the first element
+		// removes the first element and returns it
 		// Override this function in subclass
 		virtual errflag_t pop(dtype* data_data_p) = 0;
 

@@ -95,7 +95,7 @@ namespace Queue{
 			return SUCCESS;
 		}
 
-		// removes the first element
+		// removes the first element and returns it
 		errflag_t pop(dtype* dst_data_p) {
 			if (this->empty()) {
 				return ERR_EMPTY_FIFO;

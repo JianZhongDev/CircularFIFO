@@ -18,7 +18,7 @@
 #include"CircularFIFO.hpp"
 
 template<typename dtype>
-std::string helper_vector_to_string(std::vector<dtype>& src_vec) {
+std::string helper_vector_to_string(const std::vector<dtype>& src_vec) {
 	std::stringstream tmp_sstream;
 	size_t vec_len = src_vec.size();
 	
@@ -32,7 +32,7 @@ std::string helper_vector_to_string(std::vector<dtype>& src_vec) {
 	return tmp_sstream.str();
 }
 
-std::string helper_fifo_errflag_to_string(Queue::errflag_t err_flag) {
+std::string helper_fifo_errflag_to_string(const Queue::errflag_t& err_flag) {
 	std::string err_string;
 	
 	switch (err_flag) {
