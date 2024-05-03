@@ -1,3 +1,0 @@
-﻿  DemoTest.cpp
-E:\VisualStudio\CircularFIFO\CircularFIFO\CircularFIFO\Tests\DemoTest.cpp(54,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  CircularFIFO.vcxproj -> E:\VisualStudio\CircularFIFO\CircularFIFO\x64\Debug\CircularFIFO.exe
