@@ -3,7 +3,6 @@
 * FILE: DemoHelper.hpp
 * DESCRIPTION: helper functions for demonstration
 * NOTE:
-*	1. #define MAIN to enable the main() function here
 * @author: Jian Zhong
 */
 
