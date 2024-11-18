@@ -125,7 +125,7 @@ void consumer_run(std::vector<dtype>* data_vec_p, Queue::CircularFIFO<dtype>* fi
 
 // Main function for multithreading operations
 void demo_multithread_fifo() {
-	std::vector<int> producer_data_vector = { -2, -1, 0, 1, 2, 3};
+	std::vector<int> producer_data_vector = {-2, -1, 0, 1, 2, 3};
 	std::vector<int> consumer_data_vector;
 
 	Queue::CircularFIFO<int> transfer_fifo(5);
